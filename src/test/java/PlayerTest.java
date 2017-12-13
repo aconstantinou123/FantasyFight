@@ -22,7 +22,7 @@ public class PlayerTest {
         wizard = new Wizard("Spell Boy", 100, WeaponType.SPELL, DefenseType.NONE);
         cleric = new Cleric("Heal Boy", 100, WeaponType.SPELL, DefenseType.NONE);
         room = new Room();
-        troll = new Troll("Bob", 50, 50, AttackModifier.NORMAL);
+        troll = new Troll("Bob", 50, 50, "Troll", AttackModifier.NORMAL);
         room.addMonsters(troll);
     }
 
@@ -50,7 +50,7 @@ public class PlayerTest {
 
     @Test
     public void canAttackMonster(){
-        warrior.attack(WeaponType.SWORD, "Bob", room);
+        warrior.attack("Bob", room);
         assertEquals(30, troll.getHealthValue());
     }
 

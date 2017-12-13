@@ -10,11 +10,13 @@ public abstract class Monster {
     private String name;
     private int healthValue;
     private int attackValue;
+    private String monsterType;
     private AttackModifier attackModifier;
 
-    public Monster(String name, int healthValue, int attackValue, AttackModifier attackModifier) {
+    public Monster(String name, int healthValue, int attackValue, String monsterType, AttackModifier attackModifier) {
         this.name = name;
         this.healthValue = healthValue;
+        this.monsterType = monsterType;
         this.attackValue = attackValue;
         this.attackModifier = attackModifier;
     }
@@ -25,6 +27,10 @@ public abstract class Monster {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getMonsterType(){
+        return this.monsterType;
     }
 
     public int getHealthValue() {
@@ -49,6 +55,10 @@ public abstract class Monster {
 
     public void setAttackModifier(AttackModifier attackModifier) {
         this.attackModifier = attackModifier;
+    }
+
+    public String prettyName(){
+        return getName() + " the " + getMonsterType();
     }
 
     public void randomAttack(){
@@ -82,4 +92,5 @@ public abstract class Monster {
         }
         return result;
     }
+
 }

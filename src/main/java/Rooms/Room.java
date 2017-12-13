@@ -34,4 +34,13 @@ public class Room {
     public void removeMonster(Monster monster){
         this.monsters.remove(monster);
     }
+
+    public String listAllMonsters(){
+        ArrayList<String > list = new ArrayList<>();
+        for (Monster monster : monsters){
+            list.add(String.format("%s \n", monster.prettyName()));
+        }
+        String result = String.join("", list);
+        return result;
+    }
 }

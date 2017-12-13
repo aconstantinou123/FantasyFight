@@ -9,7 +9,7 @@ public class Warrior extends Player implements IMoves{
     }
 
 
-    public String attack(WeaponType weapon, String monsterName, Room room) {
+    public String attack(String monsterName, Room room) {
         String result = new String();
         for (int i = 0; i < room.getMonsters().size(); i++){
             if (monsterName == room.getMonsters().get(i).getName()){
@@ -20,7 +20,7 @@ public class Warrior extends Player implements IMoves{
                         result = "Monster is dead";
                     }
                     else{
-                        result = "Monster has taken " + this.getWeaponType().attackValue + " points of damage";
+                        result = this.getName() + " attacks the monster with " + this.getWeaponType().type + ". Monster has taken " + this.getWeaponType().attackValue + " points of damage";
                     }
             }
         }

@@ -18,7 +18,7 @@ public class MonsterTest {
     public void before(){
         warrior = new Warrior("Sword Boy", 1000, WeaponType.SWORD, DefenseType.NONE);
         warrior2 = new Warrior("Sword Boy", 1000, WeaponType.SWORD, DefenseType.SHIELD);
-        troll = new Troll("Barry", 100, 50, AttackModifier.NORMAL);
+        troll = new Troll("Barry", 100, 50, "Troll", AttackModifier.NORMAL);
     }
 
     @Test
@@ -39,4 +39,9 @@ public class MonsterTest {
 ////        assertEquals(123, warrior.getHealthValue());
 //        assertEquals(123, warrior2.getHealthValue());
 //    }
+
+    @Test
+    public void canGetPrettyName(){
+        assertEquals("Barry the Troll", troll.prettyName());
+    }
 }
