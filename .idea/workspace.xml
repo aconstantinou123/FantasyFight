@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f52ff5ea-5f40-4a89-84cd-033d7b27485b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Players/Runner.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Players/Cleric.class" afterPath="$PROJECT_DIR$/out/production/classes/Players/Cleric.class" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/PlayerTest.class" afterPath="$PROJECT_DIR$/out/test/classes/PlayerTest.class" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Baddies/Monster.java" afterPath="$PROJECT_DIR$/src/main/java/Baddies/Monster.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Players/Cleric.java" afterPath="$PROJECT_DIR$/src/main/java/Players/Cleric.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Players/Player.java" afterPath="$PROJECT_DIR$/src/main/java/Players/Player.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Warrior.java" afterPath="$PROJECT_DIR$/src/main/java/Players/Warrior.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Rooms/Room.java" afterPath="$PROJECT_DIR$/src/main/java/Rooms/Room.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PlayerTest.java" afterPath="$PROJECT_DIR$/src/test/java/PlayerTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RoomTest.java" afterPath="$PROJECT_DIR$/src/test/java/RoomTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Runner.java" afterPath="$PROJECT_DIR$/src/main/java/Players/Runner.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -34,7 +26,7 @@
       <file leaf-file-name="MonsterTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MonsterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-132">
+            <state relative-caret-position="72">
               <caret line="20" column="52" lean-forward="false" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -50,8 +42,8 @@
       <file leaf-file-name="Monster.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Baddies/Monster.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="86" column="45" lean-forward="false" selection-start-line="86" selection-start-column="45" selection-end-line="86" selection-end-column="45" />
+            <state relative-caret-position="332">
+              <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#634#635#0" expanded="true" />
@@ -130,10 +122,12 @@
       <file leaf-file-name="Runner.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Players/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="57" column="43" lean-forward="false" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+            <state relative-caret-position="169">
+              <caret line="46" column="40" lean-forward="false" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -142,27 +136,28 @@
       <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Players/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="58" column="13" lean-forward="true" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+            <state relative-caret-position="1095">
+              <caret line="73" column="5" lean-forward="false" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
               <folding>
-                <element signature="e#566#567#0" expanded="true" />
-                <element signature="e#593#594#0" expanded="true" />
-                <element signature="e#633#634#0" expanded="true" />
-                <element signature="e#665#666#0" expanded="true" />
-                <element signature="e#700#701#0" expanded="true" />
-                <element signature="e#734#735#0" expanded="true" />
-                <element signature="e#785#786#0" expanded="true" />
-                <element signature="e#831#832#0" expanded="true" />
-                <element signature="e#872#873#0" expanded="true" />
-                <element signature="e#905#906#0" expanded="true" />
-                <element signature="e#961#962#0" expanded="true" />
-                <element signature="e#1005#1006#0" expanded="true" />
-                <element signature="e#1048#1049#0" expanded="true" />
-                <element signature="e#1082#1083#0" expanded="true" />
-                <element signature="e#1141#1142#0" expanded="true" />
-                <element signature="e#1187#1188#0" expanded="true" />
-                <element signature="e#1234#1235#0" expanded="true" />
-                <element signature="e#1277#1278#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#604#605#0" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
+                <element signature="e#671#672#0" expanded="true" />
+                <element signature="e#703#704#0" expanded="true" />
+                <element signature="e#738#739#0" expanded="true" />
+                <element signature="e#772#773#0" expanded="true" />
+                <element signature="e#823#824#0" expanded="true" />
+                <element signature="e#869#870#0" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
+                <element signature="e#943#944#0" expanded="true" />
+                <element signature="e#999#1000#0" expanded="true" />
+                <element signature="e#1043#1044#0" expanded="true" />
+                <element signature="e#1086#1087#0" expanded="true" />
+                <element signature="e#1120#1121#0" expanded="true" />
+                <element signature="e#1179#1180#0" expanded="true" />
+                <element signature="e#1225#1226#0" expanded="true" />
+                <element signature="e#1272#1273#0" expanded="true" />
+                <element signature="e#1315#1316#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -171,8 +166,8 @@
       <file leaf-file-name="Cleric.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Players/Cleric.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="36" column="50" lean-forward="false" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+            <state relative-caret-position="447">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -519,11 +514,11 @@
         <option value="$PROJECT_DIR$/src/main/java/Baddies/Orc.java" />
         <option value="$PROJECT_DIR$/src/main/java/Players/Warrior.java" />
         <option value="$PROJECT_DIR$/src/main/java/Baddies/Monster.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Players/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/Rooms/Room.java" />
         <option value="$PROJECT_DIR$/src/test/java/RoomTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/PlayerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Players/Cleric.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Players/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/Players/Runner.java" />
       </list>
     </option>
@@ -881,7 +876,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -891,7 +885,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33224756" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33224756" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22801302" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -928,12 +922,12 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990228" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32736155" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32736155" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33224756" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33224756" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22801302" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19224556" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
@@ -1052,63 +1046,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Baddies/Monster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="86" column="45" lean-forward="false" selection-start-line="86" selection-start-column="45" selection-end-line="86" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-            <element signature="e#844#845#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
-            <element signature="e#929#930#0" expanded="true" />
-            <element signature="e#975#976#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
-            <element signature="e#1095#1096#0" expanded="true" />
-            <element signature="e#1141#1142#0" expanded="true" />
-            <element signature="e#1190#1191#0" expanded="true" />
-            <element signature="e#1227#1228#0" expanded="true" />
-            <element signature="e#1295#1296#0" expanded="true" />
-            <element signature="e#1347#1348#0" expanded="true" />
-            <element signature="e#1380#1381#0" expanded="true" />
-            <element signature="e#1441#1442#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Players/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="58" column="13" lean-forward="true" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
-          <folding>
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#961#962#0" expanded="true" />
-            <element signature="e#1005#1006#0" expanded="true" />
-            <element signature="e#1048#1049#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="e#1141#1142#0" expanded="true" />
-            <element signature="e#1187#1188#0" expanded="true" />
-            <element signature="e#1234#1235#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Players/Warrior.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -1143,16 +1080,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Players/Cleric.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="36" column="50" lean-forward="false" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PlayerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1163,6 +1090,36 @@
             <element signature="e#871#872#0" expanded="true" />
             <element signature="e#1231#1232#0" expanded="true" />
             <element signature="e#1310#1311#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Baddies/Monster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
+            <element signature="e#844#845#0" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#929#930#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
+            <element signature="e#1295#1296#0" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1380#1381#0" expanded="true" />
+            <element signature="e#1441#1442#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1179,7 +1136,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MonsterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132">
+        <state relative-caret-position="72">
           <caret line="20" column="52" lean-forward="false" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1191,12 +1148,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Players/Runner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Players/Cleric.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="57" column="43" lean-forward="false" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+        <state relative-caret-position="447">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Players/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="73" column="5" lean-forward="false" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#823#824#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#999#1000#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1120#1121#0" expanded="true" />
+            <element signature="e#1179#1180#0" expanded="true" />
+            <element signature="e#1225#1226#0" expanded="true" />
+            <element signature="e#1272#1273#0" expanded="true" />
+            <element signature="e#1315#1316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Players/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="46" column="40" lean-forward="false" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,8 +1,10 @@
 package Players;
 
+import Rooms.Room;
+
 import java.util.ArrayList;
 
-public abstract class Player {
+public abstract class Player implements IMoves {
 
     private String name;
     private int healthValue;
@@ -60,5 +62,14 @@ public abstract class Player {
             result = true;
         }
         return result;
+    }
+
+    public String heal(Room room, String playerName) {
+        for (Player player : room.getPlayerz()){
+            if (playerName.equals(player.getName())){
+                player.setHealthValue(player.getHealthValue() + 100);
+            }
+        }return "Cleric heals " + playerName + " by 100 points";
+
     }
 }

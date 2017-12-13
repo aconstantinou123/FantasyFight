@@ -7,16 +7,10 @@ import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class Runner {
-    private Warrior warrior;
-    private Wizard wizard;
-    private Cleric cleric;
     private Room room;
 
-    public Runner(Warrior warrior, Room room, Wizard wizard, Cleric cleric){
-        this.warrior = warrior;
+    public Runner(Room room){
         this.room = room;
-        this.wizard = wizard;
-        this.cleric = cleric;
     }
 
     public static void main(String[] args) {
@@ -35,48 +29,61 @@ public class Runner {
         room.addPlayerz(cleric);
         room.addPlayerz(wizard);
 
-        Runner runner = new Runner(warrior, room, wizard, cleric);
+        Runner runner = new Runner(room);
         runner.run();
     }
 
     private void run() {
         String choice;
         Scanner scanner = new Scanner(new InputStreamReader(System.in));
-        do{
+        do  {
             System.out.println("Welcome to Fantasy Fight");
-            System.out.println("1: Warrior");
-
+            System.out.println("1: Warrior\n2: Cleric\n3: Wizard");
+            System.out.println("Press any key to continue or q to quit\n");
             choice = scanner.nextLine();
-
-            switch(choice) {
-                case "1":
-                    String choice2;
+            System.out.println("Please choose your character");
+            Integer playerCharacter = Integer.parseInt(scanner.nextLine());
+            playerCharacter -=1;
+                if (playerCharacter != 1) {
+                    String choice2 = new String();
                     do {
-                        System.out.println(room.listAllMonsters());
+                        System.out.println("You chose " + room.getPlayerz().get(playerCharacter).getName() + "\n");
+                        System.out.println(room.listAllMonsters() + "\n");
                         System.out.println("type monster name to Attack or Defend");
                         String input = scanner.nextLine();
                         if (input.equals("Defend")) {
-                            System.out.println(warrior.defend());
-                             }
-                        else
-                                {
-                            System.out.println(warrior.attack(input, room));
-                                }
-                            System.out.println(room.getRandomMonster().attack(warrior));
-                        if (warrior.checkDeath() == true){
+                            System.out.println(room.getPlayerz().get(playerCharacter).defend());
+                        } else {
+                            System.out.println(room.getPlayerz().get(playerCharacter).attack(input, room));
+                        }
+                        System.out.println(room.getRandomMonster().attack(room.getPlayerz().get(playerCharacter)) + "\n");
+                        if (room.getPlayerz().get(playerCharacter).checkDeath() == true) {
                             System.exit(0);
                         }
-                            warrior.setDefenseType(DefenseType.NONE);
-                                choice2 = scanner.nextLine();
-                            } while (!choice2.equals("q"));
+                        room.getPlayerz().get(playerCharacter).setDefenseType(DefenseType.NONE);
+                        System.out.println("press q to choose a new character");
+                        choice2 = scanner.nextLine();
+                    } while (!choice2.equals("q"));
+                }
+                else {
+                    String choice3;
+                    do {
+                        System.out.println("You chose " + room.getPlayerz().get(playerCharacter).getName() + "\n");
+                        System.out.println("Write a players name to heal");
+                        System.out.println("1: Warrior - Sword Boy \n2: Cleric - Heal Boy \n3: Wizard - Spell Boy");
+                        String playerToHeal = scanner.nextLine();
+                        System.out.println(room.getPlayerz().get(playerCharacter).heal(room, playerToHeal));
+                        System.out.println("press q to choose a new character");
+                        choice3 = scanner.nextLine();
+                    } while (!choice3.equals("q"));
+                }
+
+            }while (!choice.equals("q"));
 
 
-            }
+        }
 
 
-        } while (!choice.equals("q"));
-
-    }
 
 
 }

@@ -32,12 +32,5 @@ public class Cleric extends Player implements IMoves {
         return String.format("%s raises their %s", this.getName(), this.getDefenseType().type);
     }
 
-    public String heal(Room room, String playerName) {
-        for (Player player : room.getPlayerz()){
-            if (playerName.equals(player.getName())){
-                player.setHealthValue(player.getHealthValue() + 100);
-            }
-        }return "Cleric heals " + playerName + " by 100 points";
 
-    }
 }
