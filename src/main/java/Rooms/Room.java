@@ -30,4 +30,8 @@ public class Room {
     public void addTreasure(String treasure) {
         this.treasure.add(treasure);
     }
+
+    public void removeMonster(Monster monster){
+        this.monsters.remove(monster);
+    }
 }
