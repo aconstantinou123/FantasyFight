@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FantasyFight.iml" filepath="$PROJECT_DIR$/.idea/modules/FantasyFight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FantasyFight_main.iml" filepath="$PROJECT_DIR$/.idea/modules/FantasyFight_main.iml" group="FantasyFight" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FantasyFight_test.iml" filepath="$PROJECT_DIR$/.idea/modules/FantasyFight_test.iml" group="FantasyFight" />
+    </modules>
+  </component>
+</project>
