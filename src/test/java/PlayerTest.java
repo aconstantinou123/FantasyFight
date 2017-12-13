@@ -52,6 +52,7 @@ public class PlayerTest {
     public void canAttackMonster(){
         warrior.attack("Bob", room);
         assertEquals(30, troll.getHealthValue());
+        assertEquals("Sword Boy attacks the monster with sword. Monster has taken 20 points of damage", warrior.attack("Bob", room));
     }
 
 }

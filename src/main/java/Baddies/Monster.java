@@ -84,7 +84,7 @@ public abstract class Monster {
                 result = "game over";
             }
             else{
-                result = player.getName() + "has new healthvalue of " + player.getHealthValue();
+                result = "Monster attacks. " + player.getName() + " has new health value of " + player.getHealthValue();
             }
         }
         else {

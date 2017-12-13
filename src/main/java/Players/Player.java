@@ -53,4 +53,12 @@ public abstract class Player {
     public void addTreasure(String treasure){
         this.treasure.add(treasure);
     }
+
+    public boolean checkDeath(){
+        boolean result = false;
+        if (this.healthValue <= 0){
+            result = true;
+        }
+        return result;
+    }
 }

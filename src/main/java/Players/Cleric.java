@@ -2,6 +2,8 @@ package Players;
 
 import Rooms.Room;
 
+import java.util.ArrayList;
+
 public class Cleric extends Player implements IMoves {
     public Cleric(String name, int healthValue, WeaponType weaponType, DefenseType defenseType) {
         super(name, healthValue, weaponType, defenseType);
@@ -28,5 +30,14 @@ public class Cleric extends Player implements IMoves {
     public String defend() {
         this.setDefenseType(DefenseType.AURA);
         return String.format("%s raises their %s", this.getName(), this.getDefenseType().type);
+    }
+
+    public String heal(Room room, String playerName) {
+        for (Player player : room.getPlayerz()){
+            if (playerName.equals(player.getName())){
+                player.setHealthValue(player.getHealthValue() + 100);
+            }
+        }return "Cleric heals " + playerName + " by 100 points";
+
     }
 }

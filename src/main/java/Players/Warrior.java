@@ -12,7 +12,7 @@ public class Warrior extends Player implements IMoves{
     public String attack(String monsterName, Room room) {
         String result = new String();
         for (int i = 0; i < room.getMonsters().size(); i++){
-            if (monsterName == room.getMonsters().get(i).getName()){
+            if (monsterName.equals(room.getMonsters().get(i).getName())){
                     int postAttack = room.getMonsters().get(i).getHealthValue() - this.getWeaponType().attackValue;
                 room.getMonsters().get(i).setHealthValue(postAttack);
                     if(room.getMonsters().get(i).getHealthValue() <= 0){
