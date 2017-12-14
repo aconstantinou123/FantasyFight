@@ -10,13 +10,11 @@ public class Room {
 
     private ArrayList<Monster> monsters;
     private ArrayList<String> treasure;
-    private ArrayList<Player> playerz;
 
 
     public Room() {
         this.monsters = new ArrayList<>();
         this.treasure = new ArrayList<>();
-        this.playerz = new ArrayList<>();
     }
 
     public ArrayList<Monster> getMonsters() {
@@ -53,11 +51,12 @@ public class Room {
         return monsters.get(0);
     }
 
-    public void addPlayerz(Player player){
-        playerz.add(player);
+    public boolean checkRoomEmpty(){
+        boolean result = false;
+        if (this.monsters.isEmpty() == true && this.treasure.isEmpty() == true){
+            result = true;
+        }
+        return result;
     }
 
-    public ArrayList<Player> getPlayerz() {
-        return playerz;
-    }
 }

@@ -81,7 +81,7 @@ public abstract class Monster {
             int postAttack = (player.getHealthValue() - ((this.attackValue * this.getAttackModifier().modifier)/ player.getDefenseType().getDefenceValue()));
             player.setHealthValue(postAttack);
             if(player.getHealthValue() <= 0){
-                result = "game over";
+                result = "Monster attacks! You have run out of health. You are dead...game...over";
             }
             else{
                 result = "Monster attacks. " + player.getName() + " has new health value of " + player.getHealthValue();

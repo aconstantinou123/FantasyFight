@@ -13,6 +13,7 @@ import static org.junit.Assert.assertNull;
 public class RoomTest {
 
     Room room;
+    Room room2;
     Troll troll;
     Dragon dragon;
     Orc orc;
@@ -23,6 +24,7 @@ public class RoomTest {
     @Before
     public void before(){
         room = new Room();
+        room2 = new Room();
         troll = new Troll("Steve", 50, 50, "Troll", AttackModifier.NORMAL);
         dragon = new Dragon("Harry", 50, 50, "Dragon", AttackModifier.NORMAL);
         orc = new Orc("Robert", 50, 50, "Orc", AttackModifier.NORMAL);
@@ -47,5 +49,15 @@ public class RoomTest {
     public void canHeal(){
         cleric.heal(room, "Spell Boy");
         assertEquals(200, wizard.getHealthValue());
+    }
+
+    @Test
+    public void roomCheck_False(){
+        assertEquals(false, room.checkRoomEmpty());
+    }
+
+    @Test
+    public void roomCheck_True(){
+        assertEquals(true, room2.checkRoomEmpty());
     }
 }

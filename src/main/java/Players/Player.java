@@ -64,8 +64,8 @@ public abstract class Player implements IMoves {
         return result;
     }
 
-    public String heal(Room room, String playerName) {
-        for (Player player : room.getPlayerz()){
+    public String heal(Players players, String playerName) {
+        for (Player player : players.getPlayers()){
             if (playerName.equals(player.getName())){
                 player.setHealthValue(player.getHealthValue() + 100);
             }
